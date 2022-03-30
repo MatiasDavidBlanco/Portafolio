@@ -1,0 +1,280 @@
+/*estilos generales */
+
+.btn-primary{
+
+   background-color:  #1A8FDD;
+}
+
+.contenedor_texto_perfil h1{
+
+    font-size: 30px;
+}
+
+.contenedor_texto_perfil h2{
+
+    font-size:20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 48px;
+    letter-spacing: 0em;
+
+    
+}
+
+/* Header */
+body{
+
+    font-family: 'Exo', sans-serif;
+}
+
+/*estilosnavbar*/
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    
+}
+
+.navbar{
+    background-color: #000000;
+}
+
+.nav-link:hover{
+    filter: opacity(0.3);
+}
+
+.menu_iconos_social{
+   
+    display: flex;
+    position: absolute;
+    margin-left: 73%;
+    
+}
+
+.iconos_social img{
+
+    height: 15px;
+    width: 15px;
+}
+
+@media screen and (min-width:768px){
+
+    .iconos_social img{
+
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media screen and (min-width:425px){
+
+    .menu_iconos_social{
+    
+        margin-left: 86%;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:768px){
+
+    .navbar-nav .nav-link {
+
+        font-size: 10px;
+        margin-top: -12px;
+    }
+}
+@media (min-width: 768px){
+
+    .navbar-collapse {
+    
+        max-width: fit-content;
+    }
+
+}
+
+
+/*estilos iconos redes sociales */
+
+/*estilos foto principal */
+
+
+/*estilos contenedor perfil */
+
+.contenedor_perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -110px;
+    
+}
+
+
+.contenedor_texto_perfil{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media (max-width: 425px){
+
+    #foto-perfil{
+        height: 80px;
+        width: 80px;
+        margin-top: 60px;
+    }
+
+    .contenedor_texto_perfil h1{
+
+        font-size: 15px;
+    }
+    .contenedor_texto_perfil h2{
+
+        font-size: 5px;
+    }
+    
+
+}
+
+@media (max-width: 768px)  {
+
+    #foto-perfil{
+        height: 70px;
+        width: 70px;
+        margin-top: 75px;
+    }
+
+    .contenedor_texto_perfil h1{
+
+        font-size: 25px;
+    }
+    .contenedor_texto_perfil h2{
+
+        font-size: 15px;
+    }
+
+}
+
+
+/* SECCION TRABAJOS */
+
+.title-line{
+
+   
+    border: 2px solid #0c0c0c;
+    width: 70px;
+    height: 0px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 60px;
+}
+
+
+.cruz {
+    font-size: 50px;
+    margin-top: -10px;
+    color: black;
+}
+.titulo_proyecto {
+    color: #7a7878;
+    margin-top: 23px;
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px)  {
+    .titulo_proyecto {
+       
+        font-size: 13px;
+    }
+}
+
+
+.rings a {
+    display:inline-block;
+    position:relative;
+  }
+  
+  .rings a span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:none;
+  }
+  
+  .rings a:hover span {
+    display:block;
+  }
+  
+  
+  .rings a:hover img {
+    opacity:0.3;
+  }
+
+/* SECCION SOBRE MI */
+
+.btn{
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.linea_vertical{
+  
+    transform: rotate(90deg);
+}
+
+@media (max-width: 768px)  {
+    .linea_vertical{
+  
+        display:none ;
+    }
+}
+.col-6 img:hover {
+    filter: grayscale(1);
+}
+
+/* SECCION CONTACTO */
+.h6{
+    font-size: 11px;
+}
+
+.form-control{
+    background-color: #F0F0F6;
+    border-radius: 0px;
+    
+}
+
+form{
+    text-align: left;
+}
+
+@media screen and (min-width:768px){
+
+    .h6{
+        font-size: 10px;
+    }
+
+}
+@media screen and (min-width:1024px){
+
+    .h6{
+        font-size: 15px;
+    }
+
+}
+
+
+.iconos_social:hover{
+
+    filter: opacity(0.3);
+}
+
+/* SECCION FOOTER */
+
+#footer{
+    background-color: #000000;
+}
