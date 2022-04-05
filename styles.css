@@ -1,8 +1,22 @@
-/*estilos generales */
+
+body{
+
+    font-family: 'Exo', sans-serif;
+}
 
 .btn-primary{
 
    background-color:  #1A8FDD;
+}
+
+a{
+    color: #7a7878;
+}
+
+/* SECCION NAVBAR */
+
+#foto-principal{
+    width: 100%;
 }
 
 .contenedor_texto_perfil h1{
@@ -15,19 +29,9 @@
     font-size:20px;
     font-style: normal;
     font-weight: 100;
-    line-height: 48px;
     letter-spacing: 0em;
 
-    
 }
-
-/* Header */
-body{
-
-    font-family: 'Exo', sans-serif;
-}
-
-/*estilosnavbar*/
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -43,21 +47,17 @@ body{
 }
 
 .menu_iconos_social{
-   
     display: flex;
     position: absolute;
     margin-left: 73%;
-    
 }
 
 .iconos_social img{
-
     height: 15px;
     width: 15px;
 }
 
 @media screen and (min-width:768px){
-
     .iconos_social img{
 
         height: 20px;
@@ -66,16 +66,11 @@ body{
 }
 
 @media screen and (min-width:425px){
-
     .menu_iconos_social{
     
         margin-left: 86%;
     }
-
 }
-
-
-
 
 @media screen and (max-width:768px){
 
@@ -95,13 +90,6 @@ body{
 }
 
 
-/*estilos iconos redes sociales */
-
-/*estilos foto principal */
-
-
-/*estilos contenedor perfil */
-
 .contenedor_perfil{
     display: flex;
     flex-direction: column;
@@ -110,9 +98,8 @@ body{
     
 }
 
-
 .contenedor_texto_perfil{
-    margin-top: 20px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,8 +122,10 @@ body{
 
         font-size: 5px;
     }
-    
-
+    #foto-principal {
+        
+        height: 259px;
+    }
 }
 
 @media (max-width: 768px)  {
@@ -155,8 +144,25 @@ body{
 
         font-size: 15px;
     }
-
 }
+@media (min-width: 1440px)  {
+
+    #foto-perfil{
+        height: 120px;
+        width: 120px;
+        margin-top: 40px;
+    }
+
+    .contenedor_texto_perfil h1{
+
+        font-size: 35px;
+    }
+    .contenedor_texto_perfil h2{
+
+        font-size: 25px;
+    }
+}
+
 
 
 /* SECCION TRABAJOS */
